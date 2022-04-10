@@ -1,0 +1,20 @@
+@font-face {
+    font-family: robo;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+.optBox {
+    font-family: 'robo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 20px;
+    background: #0E0A5C;
+    color: white;
+    height: 110px;
+    border: red solid 2px;
+}
+
+.optBoxChild {
+    margin: 1em auto;
+}

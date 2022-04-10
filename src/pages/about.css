@@ -1,0 +1,36 @@
+@font-face {
+    font-family: inter;
+    src: url('../fonts/Inter/static/Inter-Regular.ttf');
+}
+
+.about {
+    font-family: 'inter';
+}
+
+.about {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    padding: 30px 60px;
+    box-sizing: border-box;
+    margin: auto;
+
+}
+
+.aboutParent {
+    /* position: relative; */
+    background: #F5F5F5;
+    /* width: 1435px; */
+    height: 731px;
+    border: blue solid 2px;
+    min-height: fit-content;
+}
+
+.aboutParent h2 {
+    margin-top: .5em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 51px;
+    line-height: 48px;
+}

@@ -1,0 +1,90 @@
+.rectangle {
+  background: #040055;
+
+}
+
+.naviChild2 {
+  background: #040055;
+  margin: 1.5em 0;
+  margin-right: 10.4375em;
+  width: 27.875em;
+  height: 40.93px;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-left: 0;
+}
+
+.naviChild2>a {
+  background-color: inherit;
+  float: right;
+  text-decoration: none;
+  /* border: #25A0E7 2px solid; */
+  text-align: center;
+  width: 5em;
+  height: 2em;
+  line-height: 2em;
+  font-family: roboto;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-right: 0.875em;
+  border-radius: 2px;
+  padding: 0;
+}
+
+#contact {
+  width: 10em;
+  margin-right: 0;
+  background-color: #25A0E7;
+}
+
+/* side nav start here */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(4, 0, 85);
+  overflow-x: hidden;
+  transition: 0.5s;
+  /* padding-top: 60px; */
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  width: 10em;
+  margin: .5em auto;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  background-color: #25A0E7;
+
+}
+
+.sidenav .closebtn {
+  /* position: relative; */
+  transform: translateX(46vw);
+  top: 0;
+  right: 0;
+  font-size: 6em;
+  margin: 3px;
+  background-color: inherit;
+  color: white;
+  text-align: center;
+}
+
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+} */
+
+/* side nav ends here */

@@ -1,0 +1,20 @@
+.roundParent {
+    width: 13.1em;
+    height: 292.53px;
+    border: blue 2px solid;
+    margin: .5em;
+    text-align: center;
+}
+
+.roundParent>img {
+    width: 209px;
+    height: 209px;
+    /* padding: 1.43em; */
+}
+
+.roundParent>h3 {
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    color: #8C8C8C;
+}
