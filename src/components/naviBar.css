@@ -8,7 +8,7 @@
     /* overflow: auto; */
 
 }
-div>ul{
+.naviParent>ul {
     list-style: none;
     /* border: 2px solid orange;     */
     margin: 1.5em 0;
@@ -22,7 +22,7 @@ div>ul{
     padding-left: 0;
 }
 
-div>ul>li a{
+.naviParent>ul>li a {
     float: right;
     text-decoration: none;
     /* border: #25A0E7 2px solid; */
@@ -79,7 +79,7 @@ li a:hover:not(.contact a) {
 /* navigation bar for windows stops */
 
 @media screen and (max-width: 900px) {
-    div>ul{
+    .naviParent>ul {
         display: none;
         float: right;
         margin: 1.5em 0;
@@ -97,7 +97,7 @@ li a:hover:not(.contact a) {
 
   
 
-    div>ul>li a{
+    .naviParent>ul>li a {
     float: none;
     text-align: center;
     width: auto;

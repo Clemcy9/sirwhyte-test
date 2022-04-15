@@ -1,0 +1,72 @@
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+.contactParent {
+    background-image: url('../images/Rectangle.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    transform: translateY(-10em);
+    padding-top: 15em;
+    height: max-content;
+    border: 2px greenyellow solid;
+}
+
+
+/* .contactParent2 {} */
+
+.contactChild1 {
+    margin: auto;
+}
+
+.contactChild2 {
+    margin: auto;
+    height: inherit;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+
+    background-color: #0E0A5C !important;
+}
+
+form>.row,
+form .col {
+    margin: .3em;
+}
+
+.contactParent2>h1 {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 99px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #0E0A5C;
+}
+
+.contactParent2 h2 {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+forms .btn {
+    width: 211px;
+    height: 80.08px;
+}

@@ -8,9 +8,6 @@
 }
 
 .about {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
     padding: 30px 60px;
     box-sizing: border-box;
     margin: auto;
@@ -21,9 +18,10 @@
     /* position: relative; */
     background: #F5F5F5;
     /* width: 1435px; */
-    height: 731px;
+    /* height: 731px; */
     border: blue solid 2px;
-    min-height: fit-content;
+    max-height: fit-content;
+    box-sizing: border-box;
 }
 
 .aboutParent h2 {
@@ -33,4 +31,17 @@
     font-weight: 500;
     font-size: 51px;
     line-height: 48px;
+}
+.aboutFooter {
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    padding: 30px 100px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #0E0A5C;
+    margin: 2em auto;
 }

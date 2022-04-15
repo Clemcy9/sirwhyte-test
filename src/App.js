@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Rectangle from './components/rectangle';
 import NaviBar from './components/naviBar';
@@ -8,6 +8,10 @@ import Card from './components/card';
 import Services from './pages/services';
 import Rounded from './components/rounded';
 import About from './pages/about';
+import Mission from './pages/mission';
+import Team from './pages/team';
+import Contact from './pages/contact';
+import Footer from './pages/footer';
 
 function App() {
   return (
@@ -17,12 +21,16 @@ function App() {
       {/* <hr></hr> */}
       {/* <NaviBar></NaviBar> */}
       <Landing></Landing>
-      <hr></hr>
-      {/* <Card heading = 'Rework' content ='your business Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi a magnam ducimus cupiditate dolorem beatae repellendus nobis ea, expedita exercitationem.'></Card> */}
+      {/* <hr></hr> */}
+      <Card heading = 'Rework' content ='your business Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi a magnam ducimus cupiditate dolorem beatae repellendus nobis ea, expedita exercitationem.'></Card>
       <Services></Services>
-      <hr></hr>
+      {/* <hr></hr> */}
       {/* <Rounded></Rounded> */}
       <About></About>
+      <Mission></Mission>
+      <Team></Team>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
     
 

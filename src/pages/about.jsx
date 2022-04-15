@@ -11,11 +11,31 @@ function About() {
       <div className="container">
         <h2> ABOUT US</h2>
         <div className="about row">
-          <Rounded title="App/Website Development" image={programer}></Rounded>
-          <Rounded title="Branding/Graphics" image={packaging}></Rounded>
-          <Rounded title="Business Consultation" image={doctor}></Rounded>
-          <Rounded title="Social media Marketing" image={social}></Rounded>
+          <Rounded
+            className=""
+            title="App/Website Development"
+            image={programer}
+          ></Rounded>
+          <Rounded
+            className=""
+            title="Branding/Graphics"
+            image={packaging}
+          ></Rounded>
+          <Rounded
+            className=""
+            title="Business Consultation"
+            image={doctor}
+          ></Rounded>
+          <Rounded
+            className=""
+            title="Social media Marketing"
+            image={social}
+          ></Rounded>
         </div>
+        <h3 className="aboutFooter">
+          With our expertise, we fuel your social media and create apps that
+          promote engaging experience for your business
+        </h3>
       </div>
     </div>
   );
