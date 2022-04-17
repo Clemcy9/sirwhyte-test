@@ -2,7 +2,7 @@ import "./team.css";
 
 function Team() {
   return (
-    <div className="teamParent">
+    <div className="teamParent" id="team">
       <div className="container teamChild">
         <h1>Our Team</h1>
         <p>

@@ -16,7 +16,7 @@ function Rectangle() {
   return (
     <div className="rectangle">
       <nav className="navbar navbar-expand-lg container">
-        <a>
+        <a href="#">
           <img src={logo} alt="" className="img-fluid" />
         </a>
         <button
@@ -32,10 +32,10 @@ function Rectangle() {
           <button className="closebtn btn" onClick={() => setSide(!side)}>
             &times;
           </button>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Team</a>
-          <a href="#">Contact</a>
+          <a href="#about">About</a>
+          <a href="#service">Services</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
         </div>
 
         <div
@@ -43,16 +43,16 @@ function Rectangle() {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav nav-pills naviChild2">
-            <a className="nav-link " href="#">
+            <a className="nav-link " href="#service">
               Service
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#about">
               About
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#team">
               Team
             </a>
-            <a className="nav-link active" id="contact" href="#">
+            <a className="nav-link active" id="contact" href="#contact">
               Contact
             </a>
           </div>

@@ -9,7 +9,7 @@ import ServiceOption from "../components/service-option";
 function Services() {
   return (
     <div>
-      <div className="container serviceParent">
+      <div className="container serviceParent" id="service">
         <h2>You need everything to stand out right!</h2>
         <div className="cards row">
           <Card

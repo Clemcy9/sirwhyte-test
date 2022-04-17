@@ -7,8 +7,13 @@
     text-align: center;
 }
 
+.serviceParent>h2 {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
 .serviceParent>h1 {
-    margin-top: 6em;
+    margin: 3em;
     /*106px*/
     color: #25A0E7;
 
@@ -23,7 +28,7 @@
     margin-top: 5em;
 }
 
-.box>h2 {
+.serviceParent>h2 {
     font-family: 'robo';
     font-style: normal;
     font-weight: 400;
