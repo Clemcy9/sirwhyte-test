@@ -10,7 +10,7 @@ function Footer() {
     <div className="footParent">
       <div className="container">
         <div className="footHeading row justify-content-between align">
-          <h2 className="co-sm-8">Follow @ Fleckr.ng</h2>
+          <h2 className="col-sm-8">Follow @ Fleckr.ng</h2>
           <ul className="d-flex justify-content-between col-md-4 col-sm-4 ">
             <li>
               <a href="#">

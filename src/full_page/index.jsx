@@ -1,4 +1,5 @@
 import Landing from "../components/landing";
+import ProjectContainer from "../components/project_container";
 import Rectangle from "../components/rectangle";
 import About from "../pages/about";
 import Contact from "../pages/contact";
@@ -20,6 +21,7 @@ function IndexPage() {
       {/* <hr></hr> */}
       {/* <Rounded></Rounded> */}
       <About></About>
+      {/* <ProjectContainer></ProjectContainer> */}
       <Mission></Mission>
       <Team></Team>
       <Contact></Contact>

@@ -32,10 +32,10 @@ function Rectangle() {
           <button className="closebtn btn" onClick={() => setSide(!side)}>
             &times;
           </button>
-          <a href="#about">About</a>
-          <a href="#service">Services</a>
-          <a href="#team">Team</a>
-          <a href="#contact">Contact</a>
+          <a href="/#about">About</a>
+          <a href="/#service">Services</a>
+          <a href="/#team">Team</a>
+          <a href="/#contact">Contact</a>
         </div>
 
         <div
@@ -43,16 +43,16 @@ function Rectangle() {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav nav-pills naviChild2">
-            <a className="nav-link " href="#service">
+            <a className="nav-link " href="/#service">
               Service
             </a>
-            <a className="nav-link" href="#about">
+            <a className="nav-link" href="/#about">
               About
             </a>
-            <a className="nav-link" href="#team">
+            <a className="nav-link" href="/#team">
               Team
             </a>
-            <a className="nav-link active" id="contact" href="#contact">
+            <a className="nav-link active" id="contact" href="/#contact">
               Contact
             </a>
           </div>

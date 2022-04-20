@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Card from "../components/card";
 import "./services.css";
 import icon1 from "../images/web-dev-icon.png";
@@ -74,7 +75,7 @@ function Services() {
               height: "64px",
             }}
           >
-            See projects
+            <Link to="/project">See projects </Link>
           </button>
         </div>
       </div>

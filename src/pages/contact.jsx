@@ -1,6 +1,8 @@
 import group from "../images/group.png";
 import "./contact.css";
 
+import { Link } from "react-router-dom";
+
 function Contact() {
   return (
     <div className="contactParent">

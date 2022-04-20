@@ -1,6 +1,6 @@
 .teamParent {
     background-image: url('../images/Rectangle8.png');
-    border: red solid 2px;
+    border: solid 2px;
     height: calc(fit-content -1em);
 }
 

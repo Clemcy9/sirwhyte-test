@@ -1,24 +1,24 @@
-.roundParent {
+.round1Parent {
     /* width: 13.1em; */
     width: fit-content;
     /* height: 292.53px; */
-    height: auto;
+    height: 317px;
     /* border: blue 2px solid; */
     margin: .5em auto;
     text-align: center;
 }
 
-.roundParent>img {
-    width: 209px;
-    height: 209px;
+.round1Parent>img {
+    width: 300px;
+    height: 80%;
     /* width: 170px;
         height: 170px; */
-    padding: 1.43em;
+    padding-bottom: 0.5em;
 }
 
-.roundParent>h3 {
+.round1Parent>h3 {
     font-weight: 500;
     font-size: 15px;
     font-style: normal;
-    color: #8C8C8C;
+    color: black;
 }
