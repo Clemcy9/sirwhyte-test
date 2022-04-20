@@ -40,7 +40,7 @@ function Footer() {
             <h6>Company Info</h6>
             <ul>
               <li>
-                <a href="#about">About Us</a>
+                <a href="/#about">About Us</a>
               </li>
               <li>
                 <a href="#">Clients</a>
@@ -49,7 +49,7 @@ function Footer() {
                 <a href="#">Internship</a>
               </li>
               <li>
-                <a href="#teams">Teams</a>
+                <a href="/#team">Teams</a>
               </li>
             </ul>
           </div>

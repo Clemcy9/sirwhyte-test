@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Contact() {
   return (
-    <div className="contactParent">
+    <div className="contactParent" id="contact1">
       <div className="container contactParent2">
         <h1 style={{ marginBottom: "1em", textAlign: "center" }}>Contact Us</h1>
         <div className="row justify-content-around">
@@ -72,10 +72,7 @@ function Contact() {
                   className="btn btn-primary "
                 />
               </div>
-              <p>
-                Looking for an internship opportunity?{" "}
-                <a href="#">Click Here</a> to register
-              </p>
+              <p>Looking for an internship opportunity? </p>
             </form>
           </div>
           <div className="contactChild2 col-sm-8 col-md-6">

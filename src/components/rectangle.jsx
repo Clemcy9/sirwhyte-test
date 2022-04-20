@@ -32,10 +32,18 @@ function Rectangle() {
           <button className="closebtn btn" onClick={() => setSide(!side)}>
             &times;
           </button>
-          <a href="/#about">About</a>
-          <a href="/#service">Services</a>
-          <a href="/#team">Team</a>
-          <a href="/#contact">Contact</a>
+          <a href="/#about" onClick={() => setSide(!side)}>
+            About
+          </a>
+          <a href="/#service" onClick={() => setSide(!side)}>
+            Services
+          </a>
+          <a href="/#team" onClick={() => setSide(!side)}>
+            Team
+          </a>
+          <a href="/#contact1" onClick={() => setSide(!side)}>
+            Contact
+          </a>
         </div>
 
         <div
@@ -52,7 +60,7 @@ function Rectangle() {
             <a className="nav-link" href="/#team">
               Team
             </a>
-            <a className="nav-link active" id="contact" href="/#contact">
+            <a className="nav-link active" id="contact" href="/#contact1">
               Contact
             </a>
           </div>

@@ -22,3 +22,13 @@
     font-style: normal;
     color: black;
 }
+@media screen and (max-width: 760px) {
+    .round1Parent {
+        width: 133.65px;
+        height: 144px;
+        border-radius: 5px;
+        margin: .3em auto;
+        text-align: center;
+    }
+
+}
